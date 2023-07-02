@@ -115,21 +115,11 @@
 		434F222B2A50239800C9C09B /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				434F22602A507FD600C9C09B /* GFButton.swift */,
-				434F22622A50834700C9C09B /* GFTextfield.swift */,
-				434F22682A509F2B00C9C09B /* GFTitleLabel.swift */,
-				434F226A2A50A1D700C9C09B /* GFBodyLabel.swift */,
-				434F222C2A50239800C9C09B /* AppDelegate.swift */,
-				434F222E2A50239800C9C09B /* SceneDelegate.swift */,
-				434F225C2A50282500C9C09B /* SearchVC.swift */,
-				434F225E2A5028A200C9C09B /* FavoritesListVC.swift */,
-				434F22642A5095A600C9C09B /* FollowerListVC.swift */,
-				434F226C2A50A52300C9C09B /* GFAlertVC.swift */,
-				434F22662A509E1200C9C09B /* String+Ext.swift */,
-				434F22352A50239900C9C09B /* Assets.xcassets */,
-				434F22372A50239900C9C09B /* LaunchScreen.storyboard */,
+				43722C542A51667F00D4D418 /* Support */,
+				43722C532A51663B00D4D418 /* Extension */,
+				43722C522A51661600D4D418 /* Custom Views */,
+				43722C512A5165F600D4D418 /* Screens */,
 				434F223A2A50239900C9C09B /* Info.plist */,
-				43722C4F2A515C7C00D4D418 /* UIViewController+Ext.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -149,6 +139,48 @@
 				434F224F2A50239900C9C09B /* GHFollowersUITestsLaunchTests.swift */,
 			);
 			path = GHFollowersUITests;
+			sourceTree = "<group>";
+		};
+		43722C512A5165F600D4D418 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				434F225C2A50282500C9C09B /* SearchVC.swift */,
+				434F225E2A5028A200C9C09B /* FavoritesListVC.swift */,
+				434F22642A5095A600C9C09B /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		43722C522A51661600D4D418 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				434F226C2A50A52300C9C09B /* GFAlertVC.swift */,
+				434F22622A50834700C9C09B /* GFTextfield.swift */,
+				434F22682A509F2B00C9C09B /* GFTitleLabel.swift */,
+				434F226A2A50A1D700C9C09B /* GFBodyLabel.swift */,
+				434F22602A507FD600C9C09B /* GFButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		43722C532A51663B00D4D418 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				434F22662A509E1200C9C09B /* String+Ext.swift */,
+				43722C4F2A515C7C00D4D418 /* UIViewController+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		43722C542A51667F00D4D418 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				434F22372A50239900C9C09B /* LaunchScreen.storyboard */,
+				434F22352A50239900C9C09B /* Assets.xcassets */,
+				434F222E2A50239800C9C09B /* SceneDelegate.swift */,
+				434F222C2A50239800C9C09B /* AppDelegate.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
