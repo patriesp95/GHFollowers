@@ -11,6 +11,8 @@
 		433D1C012A53016900B53BF4 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D1C002A53016900B53BF4 /* GFAvatarImageView.swift */; };
 		433D1C032A54956600B53BF4 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D1C022A54956600B53BF4 /* UIHelper.swift */; };
 		433D1C0B2A54C2F500B53BF4 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D1C0A2A54C2F500B53BF4 /* GFEmptyStateView.swift */; };
+		433D1C0D2A557DD500B53BF4 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D1C0C2A557DD500B53BF4 /* UserInfoVC.swift */; };
+		433D1C0F2A55821200B53BF4 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D1C0E2A55821200B53BF4 /* UINavigationController+Ext.swift */; };
 		434F222D2A50239800C9C09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F222C2A50239800C9C09B /* AppDelegate.swift */; };
 		434F222F2A50239800C9C09B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F222E2A50239800C9C09B /* SceneDelegate.swift */; };
 		434F22362A50239900C9C09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434F22352A50239900C9C09B /* Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		433D1C002A53016900B53BF4 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		433D1C022A54956600B53BF4 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		433D1C0A2A54C2F500B53BF4 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		433D1C0C2A557DD500B53BF4 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		433D1C0E2A55821200B53BF4 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
 		434F22292A50239800C9C09B /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434F222C2A50239800C9C09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		434F222E2A50239800C9C09B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -223,6 +227,7 @@
 				434F225C2A50282500C9C09B /* SearchVC.swift */,
 				434F225E2A5028A200C9C09B /* FavoritesListVC.swift */,
 				434F22642A5095A600C9C09B /* FollowerListVC.swift */,
+				433D1C0C2A557DD500B53BF4 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			children = (
 				434F22662A509E1200C9C09B /* String+Ext.swift */,
 				43722C4F2A515C7C00D4D418 /* UIViewController+Ext.swift */,
+				433D1C0E2A55821200B53BF4 /* UINavigationController+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -417,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433D1C0F2A55821200B53BF4 /* UINavigationController+Ext.swift in Sources */,
 				434F22632A50834700C9C09B /* GFTextfield.swift in Sources */,
 				434F225D2A50282500C9C09B /* SearchVC.swift in Sources */,
 				43722C502A515C7C00D4D418 /* UIViewController+Ext.swift in Sources */,
@@ -428,6 +435,7 @@
 				433D1BFF2A5300A900B53BF4 /* FollowerCell.swift in Sources */,
 				433D1C012A53016900B53BF4 /* GFAvatarImageView.swift in Sources */,
 				434F226D2A50A52300C9C09B /* GFAlertVC.swift in Sources */,
+				433D1C0D2A557DD500B53BF4 /* UserInfoVC.swift in Sources */,
 				43722C572A51B35100D4D418 /* Follower.swift in Sources */,
 				434F222D2A50239800C9C09B /* AppDelegate.swift in Sources */,
 				434F22692A509F2B00C9C09B /* GFTitleLabel.swift in Sources */,
